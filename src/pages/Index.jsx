@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Box, Heading, Image, Button, Flex } from "@chakra-ui/react";
+import { Container, Text, VStack, Box, Heading, Image, Button, Flex, Link } from "@chakra-ui/react";
 import { FaHome, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
@@ -9,7 +9,8 @@ const Index = () => {
           <Heading as="h1" size="2xl" mb={4}>Luxury Houses</Heading>
           <Text fontSize="lg">Discover your dream home with us</Text>
         </Box>
-        <Image src="https://via.placeholder.com/800x400" alt="Luxury House" borderRadius="md" />
+        <Image src="https://images.unsplash.com/photo-1560185127-6a8c6f3e8e2b" alt="Luxury House" borderRadius="md" />
+        <Text fontSize="sm" color="gray.500">Photo by <Link href="https://unsplash.com/@username" isExternal>Photographer Name</Link> on Unsplash</Text>
         <Box textAlign="center">
           <Button colorScheme="teal" size="lg" mt={4}>Explore Now</Button>
         </Box>
